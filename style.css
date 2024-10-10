@@ -7,12 +7,13 @@
     max-width: 960px;
     margin: 0 auto;
 }
+
 .Login {
     text-decoration: none;
     color: black;
-    padding-top:2%;
-    
+    padding-top:2%; 
 }
+
 body {
     max-width: 1000px;
     margin: 0 auto; 
@@ -32,7 +33,6 @@ header {
      
      grid-column: 1 / 3;
      grid-row: 1 / 5;
-   
 }
 
 .heart1 {
@@ -47,6 +47,7 @@ header {
 .log2 {
    width: 30%;
 }
+
 .header-container-brown {
     display: flex;
     justify-content: center;
@@ -70,16 +71,14 @@ header {
     width: 100%;
     height: 100%;
 }
+
 .log3 {
    width: 30%;
 }
 
-
 .hamburger {
     display: none;
 }
-
-
 
 main {
     display: flex;
@@ -89,7 +88,6 @@ main {
     gap:50px;
     background-color: rgb(255, 255, 255);
 }
-
 
 nav {
     height: 3rem;
@@ -278,7 +276,7 @@ min-height: 30%;
     }
 }
 
-.hjilp {
+.button_bottom {
     align-self: flex-end;
 }
 
@@ -290,7 +288,7 @@ min-height: 30%;
     flex: 1;
 }
   
-  .div-3 .hjilp {
+  .div-3 .button_bottom {
     align-self: flex-start;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -327,6 +325,7 @@ footer {
 .footer-img {
     display: none;
 }
+
 .second-footer {
     display: block;
     min-width: 100%;
@@ -344,8 +343,6 @@ footer {
   align-self: center;   
 }
 
-
-
 .vänster {
   display: flex;
   justify-content: space-between;
@@ -359,6 +356,7 @@ footer {
 grid-column: 3/5;
 grid-row: 1/5;
 }
+
 .telefon-log{
    padding: 2%;
   color: white;
@@ -379,7 +377,6 @@ h6 {
     color: white;
     padding-left: 6rem;
 }
-
     
 .trashcan {
     display: none;
