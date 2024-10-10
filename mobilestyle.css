@@ -195,7 +195,20 @@ footer {
  
 }
 
+.knapp {
+    display: none;
+}
 
+.trashcan {
+    display: inline;
+    justify-self: flex-end;
+    margin: 5%;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    min-height: 50%;
+    padding-bottom: 20%;
+    padding-right: 10%;
+}
 
 
 

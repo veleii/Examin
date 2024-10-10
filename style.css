@@ -376,15 +376,8 @@ h6 {
 }
 
 .contact-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding: 2rem;
-    grid-column: 1 /3;
-    grid-row: 4 / 5;
-}
-
-.second-footer {
+    display: flex; }
+    
+.trashcan {
     display: none;
 }
-
