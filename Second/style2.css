@@ -14,7 +14,7 @@ justify-content: center;
 
 .wrapper {
   max-width: 1000px;
-  gap: 10px;
+  
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -129,15 +129,11 @@ h1 {
   grid-row: 2/3;
 }
 
-
-
-
 .input-container {
   width: 45%;
   padding-bottom: 3%;
   padding-left: 3%;
 }
-
 
 .add-button {
   background-color: rgb(10, 132, 110, 1);
@@ -162,10 +158,12 @@ h1 {
 
 section.gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Fyra kolumner som standard */
+  grid-template-columns: repeat(2, 1fr); 
+  grid-auto-rows: auto;
   gap: 30px;
   padding: 30px;
 }
+
 h3 {
   grid-column: 1/5;
   padding: 2rem;
@@ -174,13 +172,19 @@ h3 {
 }
 .koko {
   font-size: 2rem;
+  grid-row: 3/4;
 }
 
 .kiki {
   font-size: 2rem;
+  grid-row: 1/2;
+}
+.main__box {
+grid-row: 2/3;
 }
 
-.main__box {
+
+.main__box, .second__box, .third__box {
   display: flex;
   flex-direction: column;
   box-shadow:4px 4px 10px rgba(0, 0, 0, 0.503);   
@@ -206,14 +210,13 @@ h3 {
 }
 
 .logo {
-  position: absolute; /* Fortsätt använda absolut positionering */
-  width: 50%; /* Standard bredd för desktop */
+  position: absolute; 
+  max-width: 30%; /* Standard bredd för desktop */
   height: auto; /* Bevara proportioner */
   top: 20%; /* Justera vertikal position */
   left: 50%; /* Centrera horisontellt */
   transform: translateX(-50%); /* Justera för att centrera */
 }
-
 
 .greens-info {
   display: grid;
@@ -254,23 +257,25 @@ h3 {
 
 .second__box {
   grid-column: 1/2;
-  grid-row: 3/5;
-  margin-top: 40%;
+  grid-row: 4/5;
   box-shadow:4px 4px 10px rgba(0, 0, 0, 0.503);  
 }
 
 .third__box {
   grid-column: 2/3;
-  grid-row: 3/5;
-  margin-top: 40%;
+  grid-row: 4/5;
+
   box-shadow:4px 4px 10px rgba(0, 0, 0, 0.503);  
 }
 
 .lower_box {
   display: grid;
+  justify-items: center;
+  align-items: center;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(1, 1fr);
   background-color: rgba(158, 109, 82, 1);
+  border: 5px solid rgba(158, 109, 82, 1);
 
  
 }

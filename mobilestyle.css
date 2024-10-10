@@ -32,14 +32,12 @@ align-self: center;
 
 }
 
-.hjälp {
- align-self: center;
 
-}
-.heart {
-    justify-self: center;
-    grid-column: 2 / 3 ;
-    grid-row: 2/3;
+
+
+.heart1 {
+    grid-column: 5 /9 ;
+    grid-row: 2/8;
     width: 100%;
     height: 100%;
 }
@@ -62,11 +60,13 @@ align-self: center;
 }
 
 .hamburger {
-    display: flex;
+    position: absolute;
+    top:0;
+    display: block;
     grid-column: 4/6;
     grid-row: 1/1;
-    justify-self: flex-start;
-    align-self: flex-start;
+    justify-self: flex-end;
+    align-self: flex-end;
     padding: 1rem;
    
 }
@@ -78,7 +78,7 @@ align-self: center;
 }
 
 
-nav {
+.nav {
     display: none;
 
 }
@@ -136,64 +136,81 @@ section.gallery {
     align-items: center;
 }
 
-.hjälp {
+.hjilp {
+    text-align: center;
     align-self: center;
     justify-self: center;
+     margin-left: auto;
+    margin-right: auto;
+      
 }
 
-
-.footer-img {
-    display: none;
-    }
-  
-
-footer {
-    padding: 0%;
-    margin: 0%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-}
 
 .second-footer {
+    display: none;
+    }
+
+
+  .telefon-log {
+    object-fit: cover;
+    grid-column: 1/3;
+    grid-row: 4/4;
+  
+  }
+
+  .mail {
+    object-fit: cover;
+    grid-column: 3/6;
+    grid-row: 4/4;
     
+  }
+
+footer {
+    display: grid;
+    
+    min-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.footer-bild {
+    overflow: hidden;
+  
+    
+}
+.footer-img {
+    display: block;
+    object-fit: contain;
+    min-width: 100%;
     grid-column: 1/6;
     grid-row: 1/6;
-    width: 100%;  
+   
 }
 
 .vänster {
     grid-row: 3/6;
-    grid-column: 1/5;
+    grid-column: 1/6;
+   
 
 }
 
-.logo1 {
-    display: flex;
-    justify-self: center;
-    align-self: flex-start;
-}
-.log-img {
-    height: 10em;
-    width: 10em;
-    grid-column: 3/4;
+.heart {
+    max-height: 50%;
+    grid-column: 2/4;
     grid-row: 1/3;
 }
+
+
  h6 {
-    justify-self: flex-end;
-    align-self: flex-end;
+    align-self: center;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0%;
+    padding-top: 0%;
  }
 
-.second-footer {
-    display:inline-block;
-    grid-column: 1/13;
-    grid-row: 1/13;
-    width: 100%;  
-}
 
-.mail {
- 
-}
 
 .knapp {
     display: none;
