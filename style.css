@@ -19,42 +19,60 @@ header {
     max-width: 100%;
     max-height: 500px;
     display: grid;
+    overflow: hidden;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    background-color: rgb(236, 205, 205);
 }
 
-.grid-img-head {
-     overflow: hidden;
+.huvudbild {
+     
      grid-column: 1 / 3;
      grid-row: 1 / 5;
+   
 }
 
-.grid-img-1 {
-    display: flex;
+.heart {
+    
     place-self: center;
-    width: 40%;
+    width: 50%;
     height: 40%;
     grid-column: 1 / 3;
     grid-row: 1 / 5;
 }
 
-.grid-img-2 {
+.log2 {
+   width: 30%;
+}
+.header-container-brown {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(158, 109, 82);
     grid-column: 3 / 5;
-    grid-row: 1 / 3
+    grid-row: 1 / 3;
+    object-fit: cover;
+    width: 100%;
+    height: 100%
 }
 
-.grid-img-3 {
+.header-container-green {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(10, 132, 110);;
     grid-column: 3 / 5;
-    grid-row: 3 / 5
+    grid-row: 3 / 5;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.log3 {
+   width: 30%;
+}
+
+
+.hamburger {
+    display: none;
 }
 
 nav {
@@ -70,13 +88,6 @@ main {
     background-color: rgb(255, 255, 255);
 }
 
-.log2 {
-    max-height: 80%;
-}
-
-.log3 {
-    max-height: 80%;
-}
 
 nav {
     height: 3rem;
@@ -176,13 +187,13 @@ section.gallery {
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 30px;
-    padding: 30px;
+    gap: 5%;
+    padding: 5%;
 }
 
 .knapp {
     justify-self: flex-end;
-    margin: 10px;
+    margin: 5%;
     background-color: rgba(185, 56, 87);
 }
 
@@ -315,6 +326,10 @@ footer {
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.footer-img {
+    display: block;
+}
+
 .footer-bild {
     grid-column: 1 / 5;
     grid-row: 1 / 5;
@@ -367,5 +382,9 @@ h6 {
     padding: 2rem;
     grid-column: 1 /3;
     grid-row: 4 / 5;
+}
+
+.second-footer {
+    display: none;
 }
 
