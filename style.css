@@ -10,6 +10,8 @@
 .Login {
     text-decoration: none;
     color: black;
+    padding-top:2%;
+    
 }
 body {
     max-width: 1000px;
@@ -91,7 +93,6 @@ main {
 
 nav {
     height: 3rem;
-    
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-evenly;
@@ -106,6 +107,7 @@ nav {
        align-items: center;
        text-align: center;
        font-weight:medium;
+       
      }
 }
 
@@ -268,7 +270,7 @@ min-height: 30%;
 .second {
     display: flex;
     p {
-     margin: 5%;
+     
     font-family:Verdana, Geneva, Tahoma, sans-serif;     
      }
  h2 {
@@ -287,11 +289,6 @@ min-height: 30%;
     gap: 20px;
     flex: 1;
 }
-
-.div-3 {
-    display: flex;
-    flex-direction: column;
-  }
   
   .div-3 .hjilp {
     align-self: flex-start;
