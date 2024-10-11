@@ -126,7 +126,7 @@ h1 {
     flex-direction: row;
 }
 
-.div-1 {
+.figure-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -142,7 +142,7 @@ h1 {
     max-height: 70%
 }
 
-.div-2 {
+.section-2 {
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -280,7 +280,7 @@ min-height: 30%;
     align-self: flex-end;
 }
 
-.div-3 {
+.section-3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,7 +288,7 @@ min-height: 30%;
     flex: 1;
 }
   
-  .div-3 .button_bottom {
+  .section-3 .button_bottom {
     align-self: flex-start;
     padding: 15px 30px;
     font-size: 1.2rem;

@@ -84,7 +84,7 @@ p {
     align-items: center;
 }
 
-.div-1 {
+.figure-1 {
     display: flex;
     justify-content: center;
 }
@@ -98,7 +98,7 @@ button {
     align-items: center;
 }
 
-.div-2 {
+.section-2 {
     justify-content: center;
     align-items: center;
 }
@@ -123,7 +123,7 @@ section.gallery {
     padding: 30px;
 }
 
-.div-3 {
+.section-3 {
     display: flex;
     align-items: center;
 }

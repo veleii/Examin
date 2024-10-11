@@ -209,6 +209,11 @@ display: flex;
 justify-content: center;
 position: relative;
 align-items: center;
+object-fit: fill;
+}
+
+.gurk-bild {
+  min-width: 100%;
 }
 
 .logo {
@@ -277,7 +282,7 @@ align-items: center;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(1, 1fr);
 background-color: rgba(158, 109, 82, 1);
-border: 5px solid rgba(158, 109, 82, 1);
+border: 2em solid rgba(158, 109, 82, 1);
 }
 
 .photo__low {
@@ -307,3 +312,6 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode',
   display: none;
  }
 
+.top {
+  padding: 2%;
+}
