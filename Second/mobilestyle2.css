@@ -127,4 +127,14 @@ overflow: hidden;
 .heart {
 padding-top: 100rem;;
 }
+.nav-footer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link-top {
+  color: black;
+  margin-left: auto;
+  margin-right: auto; 
+}
 }
